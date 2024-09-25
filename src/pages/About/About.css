@@ -1,0 +1,85 @@
+/* About.css */
+
+.about-page {
+    padding: 40px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .h2classname {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0f0f0f; /* Red accent color */
+  }
+  
+  .h2p {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #555;
+  }
+  
+  .mission-section, 
+  .values-section, 
+  .features-section, 
+  .join-us-section {
+    margin-bottom: 50px;
+  }
+  
+  .h3classname {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #2c3e50; /* Dark blue accent */
+  }
+  
+  .h3p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .sectionul1 {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .fistsectionli {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .fistsectionli::before {
+    content: "•";
+    margin-right: 10px;
+    font-size: 1.5rem;
+    color: #27ae60; /* Green accent for bullet points */
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .h2classname {
+      font-size: 2rem;
+    }
+  
+    .h3classname {
+      font-size: 1.5rem;
+    }
+  
+    .h2p, .h3p {
+      font-size: 1rem;
+    }
+  
+    .fistsectionli {
+      font-size: 1rem;
+    }
+  }
+  
